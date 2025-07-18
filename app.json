@@ -1,5 +1,5 @@
 {
-  "name": "Levanter",
+  "name": "dark joker",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
@@ -7,7 +7,7 @@
   "env": {
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
+      "required": true,
       "value": "false"
     },
     "LOG_MSG": {
@@ -26,14 +26,14 @@
       "value": "."
     },
     "SESSION_ID": {
-      "description": "session id",
+      "description": "levanter_187070044b9b7840b088266aff14b71896",
       "required": true,
       "value": ""
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
-      "required": false,
-      "value": "❤️,LyFE"
+      "required": true,
+      "value": "🤔,LyFE"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -70,17 +70,17 @@
     },
     "ANTILINK_MSG": {
       "description": "Message send when antilink and action is kick.",
-      "required": false,
+      "required": true,
       "value": "_Antilink Detected &mention kicked_"
     },
     "ANTISPAM_MSG": {
       "description": "Message send when antispam.",
-      "required": false,
+      "required": true,
       "value": "_Antispam Detected &mention kicked_"
     },
     "ANTIWORDS_MSG": {
       "description": "Message send when antiword.",
-      "required": false,
+      "required": true,
       "value": "_Antiword Detected &mention kicked_"
     },
     "ANTIWORDS": {
@@ -100,7 +100,7 @@
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
-      "required": false,
+      "required": true,
       "value": "false"
     },
     "SEND_READ": {
@@ -115,7 +115,7 @@
     },
     "PERSONAL_MESSAGE": {
       "description": "Send a Welcome message on personal chat",
-      "required": false,
+      "required": true,
       "value": "null"
     },
     "DISABLE_START_MESSAGE": {
